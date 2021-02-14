@@ -7,7 +7,6 @@ let specialCharacter= ['!','#','$','%','&','(',')','*','+',',','-','.','/',':','
 //Concatinated Arrays variable.
 let passwordField= []
 
-
 //Password Generation function
 function generatePassword() {
   let output= ""
@@ -57,8 +56,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
